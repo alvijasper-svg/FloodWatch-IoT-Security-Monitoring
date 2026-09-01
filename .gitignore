@@ -1,0 +1,24 @@
+# Local credentials / device-specific configuration
+firmware/secrets.h
+*.env
+.env*
+
+# Arduino / IDE / build artifacts
+.vscode/
+.idea/
+*.bin
+*.elf
+*.hex
+*.map
+build/
+.pio/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary exports
+*.tmp
+*.bak
+~$*
